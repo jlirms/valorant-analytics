@@ -1,13 +1,19 @@
-# valorant-analytics
-For SSAC 2022, more code and transcript of paper will be uploaded soon
+# VALORANT-SSAC22
+ Code and Data used in Winning Duels in VALORANT, finalist for [Sloan Sports Analytics Conference 2022](https://www.sloansportsconference.com/research-paper-competition#SSAC%202022%20Research%20Papers).
+Vote for this paper if it's your favourite in the open source category [here!](https://docs.google.com/forms/d/e/1FAIpQLSc99T9vtNvZLSw-j4YPEz2S_jG_Fspx19WUFfuxX4MRLFeykw/viewform)
 
-### Paper Title: Winning Duels in Valorant
+The PAPER.pdf and POSTER.pdf are final, but the repo will continue to be updated over with more data and better documentation. 
 
-### Description
-This paper applies traditional sports analytics metrics with novel machine learning models in a brand new competitive Esport. By leveraging in-game positional data, we are able to evaluate the difficulty of a particular gun fight and assign a win probability to both sides. We use these predictions to identify players who are performing above or below expected, and identify strengths and weaknesses for NRG’s player development. We are hopeful for more analytics in Esports from current working professionals and the younger generation.  
+Current files are notebooks which generated the plots used in the paper, added for reproducibility purposes.
 
-### Author and Bio
-NRG DeMarsDeRover
+Created using Python 3.8.8, Anaconda installation with a few other libraries like xgboost. 
 
-Author’s Biography: Founded in 2015, NRG has embodied competitive Esports excellence and boasts one of the most popular VALORANT rosters in North America. This paper is by their team analyst NRG DeMars DeRover who is currently a student at MIT Sloan. It was developed alongside their coach NRG JoshRT and chief of staff Jamie Cohenca, with players NRG ANDROID, eeiu, hazed, s0m and tex.
+## FAQs
+
+- *How did you get involved with NRG?* I started by making heatmaps on the [Valorant Competitive Subreddit](https://www.reddit.com/r/ValorantCompetitive/) and the coach of NRG [JoshRT](https://twitter.com/JoshRTz) followed me on Twitter. I sent him some ideas, and luckily for me he was willing to try it! Data only takes you so far, seeing it in action has been very rewarding. 
+
+- *I saw your heatmaps on reddit, how is this different?* [The heatmaps](https://twitter.com/DeMarsDeRover) were meant to be a visualiation tool of *x* and *y* positions *only*. It does not account for the context of a fight such as guns and armor, that's where the model shines. 
+
+- *Where is this data coming from?* The data is provided by the VALORANT Data API, and is sorted and parsed by [Runitback.gg](https://rib.gg/). None of this would have been possible without RunItBack's support. Join their [discord](https://discord.gg/aceNhaM), it's a great place to start with VALORANT analytics. 
+
 
